@@ -1,0 +1,19 @@
+{
+  "name": "whatsapp-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Chatbot de WhatsApp con IA (Claude) sincronizado con la app de WhatsApp Business vía Cloud API Coexistence",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "check": "node scripts/check-setup.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.70.0",
+    "@supabase/supabase-js": "^2.45.0"
+  }
+}
